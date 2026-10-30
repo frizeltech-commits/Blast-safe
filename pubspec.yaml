@@ -1,0 +1,29 @@
+name: blastsafe
+description: BlastSafe - Aplikasi informasi dan monitoring lokasi perlindungan pada kondisi darurat banjir
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.2.4
+  intl: ^0.18.1
+  provider: ^6.1.1
+  flutter_animate: ^4.5.0
+  flutter_map: ^8.3.2
+  latlong2: ^0.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
